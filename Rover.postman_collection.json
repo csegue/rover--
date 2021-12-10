@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "f2945bf5-9d49-4894-bb52-46482bc33f5e",
+		"name": "Rover",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "rover",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"instrucciones_movimiento\":\"ALRLLAAAAARLAL\",\r\n    \"orientacion_i\": \"O\",\r\n    \"ancho_cuadricula\":  16,\r\n    \"alto_cuadricula\":   16,        \r\n    \"posicion_inicial_x\": 7,\r\n    \"posicion_inicial_y\": 7 \r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/proyecto",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"proyecto"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
